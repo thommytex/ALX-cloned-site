@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: ubuntu;
+}
+.s1{
+    background-color: blue;
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    color: white;
+}
+.s1-container{
+    position: relative;
+    margin-bottom: 12%;
+}
+.s1-container .card{
+    background-color: rgba(236, 77, 49, 0.699);
+}
+#logo{
+    width: 14%;
+    top: 0;
+    position: absolute;
+}
+#africa{
+    width: 35%;
+    position: absolute;
+    top: 0;
+    left: 34%;
+}
+#paper{
+    width: 90%;
+    position: absolute;
+    right: -30%;
+    bottom: -25%;
+}
+#text-1{
+   position: absolute;
+   bottom: 15%;
+   left: 6%;
+}
+.s2-container{
+    position: relative;
+   padding-left: 5%;
+   padding-right: 5%;
+   text-align: center;
+}
+.s2-container img{
+    width: 100%;
+}
+h4{
+   font-size: 35px;
+   margin-top: 20px;
+   /* font-family: cursive; */
+}
+ b{
+    font-size: 60px;
+}
+
+#text-2>b{
+    font-size: 43px;
+}
+
+#text-2>h5{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 18px;
+}
+#text-2 img{
+    width: 97%;
+}
+#text-2 ul{
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+    margin-top: 4%;
+}
+#text-2 ul li{
+    list-style: none;
+}
+#text-2 ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: #000;
+}
+#text-2 .card-body{
+    max-width: 97%;
+}
+.row{
+    text-align: left;
+}
+.row b{
+    font-size: 27px;
+}
+#boss{
+    margin-bottom: 10%;
+}
+.grid{
+    margin-top: 10%;
+}
+.grid h1{
+    font-size: 60px;
+}
+.grid h3{
+    line-height: 50px;
+}
+.grid img{
+    width: 30%;
+    height: 30%;
+    margin-left: 10px;
+}
+
+.proof{
+    display: flex;
+    margin-bottom: 10%;
+}
+.proof p{
+  font-size: 17px;
+}
+.card{
+    position: absolute;
+    bottom: -12%;
+    height: 150px;
+    left: 12%;
+   max-width: 80%;
+}
+.card-body{
+    text-align: left;
+    height: 40%;
+}
+#comments{
+    height: 300px;
+    padding: 30px;
+    overflow: hidden;
+}
+#man{
+    transition: 1s;
+}
+#woman2{
+    margin-bottom: 15%;
+    /* 15 */
+}
+#woman,#woman2{
+     transition: 1s;
+}
+#woman.active,#woman2.active{
+  margin-top: -45%;
+  transition: 1s;
+}
+
+#man.active,#man2{
+    margin-bottom: 45%;
+    transition: 1s;
+}
+
+#com-text{
+    background-color: rgba(245, 245, 245, 0.363);
+    border-radius: 30px;
+    height: 240px;
+    padding: 40px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16%;
+}
+label{
+    color: orangered;
+}
+#comments{
+  border-left: 3px solid orangered;
+}
+#comments img{
+    width: 82%;
+    height: 82%;
+}
+#why{
+    margin-top: 12%;
+}
+#why .col-md-6{
+    padding: 0 50px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+#line{
+    border-left: 2px solid  orangered;
+}
+#why .col-md-6 h5{
+    font-size: 20px;
+    line-height: 30px;
+}
+.last{
+    margin-top: 10%;
+}
+.last h5{
+    margin-left: 17%;
+}
+#btn{
+    padding-top: 100px;
+}
+.last .row{
+max-width: 80%;
+}
+.last .col-md-6{
+    padding: 20px;
+}
+footer{
+    background-color: blue;
+}
+
+
+
+/* media quaries */
+
+@media(max-width:900px){
+    #africa{
+        width: 70%;
+        left: 18%;
+    }
+     #text-2>b{
+         font-size: 26px;
+     }
+     #text-2>h5{
+         font-size: 22px;
+     }
+     #text-2 ul{
+        display: block;
+    }
+    #boss{
+        margin-bottom: 30%;
+    }
+    .card-body{
+        height: 10%;
+    }
+    #why{
+        margin-top: 45%;
+    }
+    #com-text{
+        height: 110%;
+        padding: 10px;
+        gap: 2%;
+    }
+}
+
+
+@media(max-width:770px){
+    #text-1{
+        position: absolute;
+        bottom: 30%;
+        left: 2%;
+     }
+     text>h4{
+        font-size: 27px;
+        margin-top: 20px;
+        /* font-family: cursive; */
+     }
+     .s1 b{
+         font-size: 40px;
+     }
+     #africa{
+        width: 100%;
+        left: 0;
+    }
+    #paper{
+        bottom: 0;
+    }
+    .s2-container{
+       margin-top: 32%;
+    }
+    #text-2>b{
+        font-size: 20px;
+    }
+    #text-2>h5{
+        font-size: 15px;
+    }
+    #text-2 ul{
+        display: block;
+    }
+    .grid .col-md-4{
+        margin-top: 15%;
+    }
+    .card-body{
+        height: 35%;
+    }
+    #comments{
+        height: 410px;
+    }
+}
+
+@media(max-width:700px){
+    #woman.active,#woman2.active{
+        margin-top: -100%;
+      }
+      #man.active,#man2,#man2.active{
+        margin-bottom: 100%;
+    }
+    #man2.active{
+        margin-top: -100%;
+    }
+    #comments{
+        height: 430px;
+    }
+}
